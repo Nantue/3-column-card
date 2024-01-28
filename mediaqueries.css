@@ -1,0 +1,31 @@
+@media (max-width: 769px){
+    body{
+        grid-template-rows: auto auto;
+        min-height: 100vh;
+    }
+    section.container-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(375px 3fr));
+    }
+    .card{
+        max-width: 327px;
+        height: 442px;
+    }
+    .orange{
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .dark-cyan {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    p.text{
+        text-wrap: wrap;
+    }
+    button.card-btn{
+        height: 48px;
+        margin-top: 1.7rem;
+    }
+    .attribution {
+        font-size: 10px; 
+        grid-row: 1; /* Cambia la posición del footer a la tercera fila */
+      }
+}
